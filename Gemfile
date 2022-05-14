@@ -29,6 +29,10 @@ gem 'rack-cors'
 gem 'pg'
 # Dot env
 gem 'dotenv-rails'
+#Devise
+gem 'devise'
+#JWT
+gem 'devise-jwt'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
