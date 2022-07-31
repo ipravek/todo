@@ -3,7 +3,6 @@ class ApplicationController < ActionController::API
 
   def encode_token(payload)
     payload[:exp] = 1.week.from_now.to_i
-    binding.pry
     JWT.encode(payload, 'my$ecretK3y')
   end
 
